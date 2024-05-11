@@ -1,7 +1,13 @@
+import LeftBar from "./components/leftbar/LeftBar"
+import Navbar from "./components/navbar/Navbar"
+
 const App = () => {
   return (
     <div>
-      Portfolio
+      <LeftBar />
+      <div className="container">
+        <Navbar />
+      </div>
     </div>
   )
 }

@@ -1,0 +1,59 @@
+.navContainer {
+  position: fixed;
+  top: 0;
+  left: 61px;
+  width: calc(100vw - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1.5px solid #494949;
+  border-left: none;
+  padding: 12px;
+}
+
+.navLeft {
+  margin-left: 10px;
+}
+
+.navLeft img {
+  cursor: pointer;
+}
+
+.navMid {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navMid a {
+  text-decoration: none;
+  font-size: .9rem;
+  color: #8a8a8a;
+  letter-spacing: 2px;
+  transition: all 0.3s ease-out;
+}
+
+.navMid a:hover {
+  color: #e8e8e8;
+}
+
+.navRight {
+  margin-right: 50px;
+}
+
+.GITbtn {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: .9rem;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid white;
+}
+
+.GITbtn:hover {
+    color: #e8e8e8;
+    background-color: transparent;
+}

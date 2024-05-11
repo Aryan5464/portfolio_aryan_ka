@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap');
+
 body {
-        background: url(/images/slash_it.webp);
+  background: url(./images/slash_it.webp);
+  color: white;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Jersey 25 Charted", sans-serif; */
+}
+
+.container {
+  margin-left: 70px;
 }
