@@ -30,10 +30,6 @@
   transition: all 1s ease-out;
 }
 
-.A_logo:hover {
-  transform: scale(1.1);
-}
-
 /* Left Bar Middle */
 .leftBarMiddle p {
   transform: rotate(270deg);
