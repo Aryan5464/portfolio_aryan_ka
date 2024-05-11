@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap");
 
 body {
   background: url(./images/slash_it.webp);
@@ -7,6 +7,20 @@ body {
   box-sizing: border-box;
   font-family: "Roboto Condensed", sans-serif;
   /* font-family: "Jersey 25 Charted", sans-serif; */
+}
+
+:root {
+  --black-1: #000000; /* Darkest */
+  --black-2: #1e1e1e;
+  --black-3: #404040;
+  --black-4: #6c6c6c;
+  --black-5: #818181; /* Lightest */
+
+  --white-1: #ffffff; /* Lightest */
+  --white-2: #ececec;
+  --white-3: #dddddd;
+  --white-4: #bcbcbc;
+  --white-5: #acacac; /* Darkest */
 }
 
 .container {

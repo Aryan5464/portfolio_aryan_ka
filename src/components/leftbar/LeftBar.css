@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  border: 1.5px solid #494949;
+  border: 1.5px solid var(--black-3);
   height: 100vh;
   width: 60px;
   display: flex;
@@ -34,13 +34,13 @@
   transform: scale(1.1);
 }
 
-
 /* Left Bar Middle */
 .leftBarMiddle p {
   transform: rotate(270deg);
-  color: #8a8a8a;
+  /* color: #8a8a8a; */
+  color: var(--black-5);
   width: max-content;
-  font-size: .8rem;
+  font-size: 0.8rem;
   letter-spacing: 5px;
   word-spacing: 3px;
 }
@@ -52,7 +52,7 @@
 
 .leftBarBottom .socialIcons {
   font-size: 25px;
-  color: #bcbcbc;
+  color: var(--white-4);
   text-align: center;
   margin: 10px 0;
   cursor: pointer;
@@ -60,7 +60,6 @@
 }
 
 .socialIcons:hover {
-  color: #eaeaea;
+  color: var(--white-2);
   transform: scale(1.1);
-
 }
