@@ -1,0 +1,38 @@
+.heroSection {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--black-3);
+}
+
+.heroLeft {
+  padding: 130px 0 0 100px;
+}
+
+.h_1 {
+  font-family: "Jersey 25 Charted", sans-serif;
+  font-size: 3rem;
+}
+
+.h_2 {
+  margin-top: 10px;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 9rem;
+  line-height: 0.8;
+  letter-spacing: 10px;
+}
+
+.h_3 {
+  color: var(--white-4);
+  margin-top: 30px;
+  padding-left: 40px;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  border-left: 2px solid var(--white-5);
+  width: 250px;
+}
+
+.heroRight img {
+  width: 700px;
+  user-select: none;
+}

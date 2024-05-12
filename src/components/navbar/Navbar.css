@@ -9,6 +9,9 @@
   border: 1.5px solid var(--black-3);
   border-left: none;
   padding: 12px;
+  background: url(../../images/darkness.jpg);
+  z-index: 998;
+  user-select: none;
 }
 
 .navLeft {
