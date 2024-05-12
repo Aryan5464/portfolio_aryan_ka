@@ -7,7 +7,7 @@
   margin: 10px;
 }
 
-.projectSection .projectSectionHeading {
+.projectSectionHeading {
   text-transform: uppercase;
   font-size: 3rem;
   font-family: "Jersey 25 Charted", sans-serif;
@@ -29,13 +29,13 @@
 }
 
 .projectImg {
-    width: 20vw;
+  width: 20vw;
 }
 
 .projectName {
-    font-size: 2rem;
-    font-family: "Foldit", sans-serif;
-    font-family: "Micro 5", sans-serif;
+  font-size: 2rem;
+  color: gold;
+  font-family: "Micro 5", sans-serif;
 }
 
 .projectDescription {
@@ -63,22 +63,72 @@
   gap: 10px;
   border: 2px solid var(--black-3);
   border-radius: 50px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .liveLink:hover {
-    color: gold;
-    border: 2px solid gold;
+  color: gold;
+  border: 2px solid gold;
 }
 
 .gitHubLink {
-    text-decoration: none;
-    color: gold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 4px;
-    font-size: 1.2rem;
-    border: 2px solid gold;
-    border-radius: 50px;
+  text-decoration: none;
+  color: gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  font-size: 1.2rem;
+  border: 2px solid gold;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .projectsContainer {
+    padding: 30px 100px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .projectsContainer {
+    padding: 30px 50px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .projectsContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .projectImg {
+    width: 60vw;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .projectsContainer {
+    padding: 30px 20px;
+  }
+
+  .projectSectionHeading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 20px;
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .projectSectionHeading {
+    font-size: 2rem;
+  }
+
+  .projectDescription {
+    width: 100%;
+  }
+
+  .projectDescription,
+  .liveLink {
+    font-size: 0.9rem;
+  }
 }

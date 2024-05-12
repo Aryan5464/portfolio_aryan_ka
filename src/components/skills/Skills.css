@@ -22,7 +22,6 @@
 
 .skillSection h1:hover {
   color: gold;
-  
 }
 
 .skillRight {
@@ -61,4 +60,76 @@
 .skills .skillIcon:hover {
   color: gold;
   transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1250px) {
+  .innerSkillSection {
+    flex-direction: column;
+  }
+
+  .skillSection h1 {
+    margin: 10px;
+    font-size: 7rem;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .skillSection h1 {
+    font-size: 5rem;
+  }
+
+  .skills {
+    margin: 0 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 750px) {
+  
+
+  .skillSection h1 {
+    font-size: 3rem;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .skillRow {
+    margin: 10px 0;
+  }
+
+  .skillRow .skillRowHeading {
+    font-size: 1.5rem;
+  }
+
+  .skills .skillIcon {
+    font-size: 3rem;
+  }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+  
+
+  .skillSection h1 {
+    font-size: 2rem;
+  }
+
+  .skillRow {
+    gap: 10px;
+  }
+
+  .skillRow .skillRowHeading {
+    font-size: 1.3rem;
+  }
+
+  .skills .skillIcon {
+    font-size: 2rem;
+  }
+
+
 }

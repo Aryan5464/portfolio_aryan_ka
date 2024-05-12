@@ -40,7 +40,7 @@
   font-size: 0.8rem;
   letter-spacing: 5px;
   word-spacing: 3px;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 /* Left Bar Bottom */
@@ -60,4 +60,10 @@
 .socialIcons:hover {
   color: gold;
   transform: scale(1.05);
+}
+
+@media only screen and (max-width: 600px) {
+  .leftBar {
+    display: none;
+  }
 }
