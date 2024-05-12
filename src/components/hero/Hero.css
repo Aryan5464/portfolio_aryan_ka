@@ -23,12 +23,13 @@
 }
 
 .h_3 {
+  /* font-family: "Nabla", system-ui; */
   color: var(--white-4);
   margin-top: 30px;
   padding-left: 40px;
   letter-spacing: 1px;
   font-size: 1.3rem;
-  border-left: 2px solid var(--white-5);
+  border-left: 2px solid gold;
   width: 250px;
 }
 

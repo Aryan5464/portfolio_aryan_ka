@@ -38,8 +38,10 @@
 }
 
 .navMid a:hover, .navMid a:active {
-  color: var(--white-2);
-  text-shadow: 0px 0px 2px var(--white-2);
+  /* color: var(--white-2); */
+  color: goldenrod;
+  /* text-shadow: 0px 0px 2px var(--white-2); */
+  text-shadow: 0px 0px 15px goldenrod;
 }
 
 .navRight {
@@ -56,9 +58,11 @@
     font-weight: 500;
     transition: all 0.2s ease-in-out;
     border: 2px solid var(--white-2);
-}
-
-.GITbtn:hover {
-    color: var(--white-2);
+  }
+  
+  .GITbtn:hover {
+    /* color: var(--white-2); */
+    color: goldenrod;
     background-color: transparent;
+    border: 2px solid goldenrod;
 }

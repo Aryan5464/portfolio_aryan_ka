@@ -21,7 +21,7 @@
 }
 
 .skillSection h1:hover {
-  color: rgb(255, 217, 0);
+  color: gold;
   
 }
 
@@ -59,6 +59,6 @@
 }
 
 .skills .skillIcon:hover {
-  color: goldenrod;
+  color: gold;
   transform: scale(1.1);
 }

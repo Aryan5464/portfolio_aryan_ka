@@ -34,11 +34,13 @@
 .leftBarMiddle p {
   transform: rotate(270deg);
   /* color: #8a8a8a; */
-  color: var(--black-5);
+  /* color: var(--black-5); */
+  color: gold;
   width: max-content;
   font-size: 0.8rem;
   letter-spacing: 5px;
   word-spacing: 3px;
+  opacity: .8;
 }
 
 /* Left Bar Bottom */
