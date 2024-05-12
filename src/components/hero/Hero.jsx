@@ -3,7 +3,7 @@ import HeroImg from '../../images/HeroImg2.png'
 
 const Hero = () => {
   return (
-    <section className='heroSection'>
+    <section className='heroSection' id='home'>
       <div className="heroLeft">
         <div className='h_1'>FULL-STACK DEVELOPER</div>
         <div className='h_2'>ARYAN JAIN</div>
