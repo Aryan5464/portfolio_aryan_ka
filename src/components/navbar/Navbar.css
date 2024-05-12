@@ -9,7 +9,8 @@
   border: 1.5px solid var(--black-3);
   border-left: none;
   padding: 12px;
-  background: url(../../images/darkness.jpg);
+  /* background: url(../../images/darkness.jpg); */
+  background-color: black;
   z-index: 998;
   user-select: none;
 }
@@ -36,7 +37,7 @@
   transition: all 0.3s ease-out;
 }
 
-.navMid a:hover {
+.navMid a:hover, .navMid a:active {
   color: var(--white-2);
   text-shadow: 0px 0px 2px var(--white-2);
 }

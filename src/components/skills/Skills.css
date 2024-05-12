@@ -1,0 +1,64 @@
+.innerSkillSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skillSection,
+.innerSkillSection {
+  margin: 10px;
+  border: 1px solid var(--black-3);
+}
+
+.skillSection h1 {
+  font-size: 9rem;
+  font-family: "Jersey 25", sans-serif;
+  /* font-family: "Nabla", system-ui; */
+  width: 25vw;
+  text-align: center;
+  transition: all 1s ease-in-out;
+  cursor: default;
+}
+
+.skillSection h1:hover {
+  color: rgb(255, 217, 0);
+  
+}
+
+.skillRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+}
+
+.skillRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.skillRow .skillRowHeading {
+  font-size: 2rem;
+  /* font-family: "Jersey 25 Charted", sans-serif; */
+  font-family: "Nabla", system-ui;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.skills .skillIcon {
+  font-size: 4rem;
+  color: var(--white-3);
+  transition: all 0.3s ease-in-out;
+}
+
+.skills .skillIcon:hover {
+  color: goldenrod;
+  transform: scale(1.1);
+}

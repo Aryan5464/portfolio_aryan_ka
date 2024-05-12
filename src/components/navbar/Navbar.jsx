@@ -7,11 +7,11 @@ const Navbar = () => {
       <div className="navLeft"><img src={aryanLogo} width={'50px'} alt="Aryan" /></div>
 
       <div className="navMid">
-        <a href="#">Home</a>
+        <a href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#">Skills</a>
-        <a href="#">Experience</a>
-        <a href="#">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
       </div>
 
       <div className="navRight">
