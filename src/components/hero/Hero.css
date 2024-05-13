@@ -121,7 +121,7 @@
   }
 
   .heroRight img {
-    width: 75vw;
+    width: 85vw;
   }
 }
 
@@ -129,10 +129,11 @@
   .heroSection {
     gap: 30px;
     height: 95vh;
+    user-select: none;
   }
   
   .heroLeft{
-    gap: 30px;
+    gap: 20px;
   }
 
   .h_1 {
@@ -149,10 +150,10 @@
     margin-top: 10px;
     font-size: 0.7rem;
   }
-/* 
+
   .heroRight img {
-    width: 75vw;
-  } */
+    width: 90vw;
+  }
 }
 
 @media only screen and (max-width: 400px) {
