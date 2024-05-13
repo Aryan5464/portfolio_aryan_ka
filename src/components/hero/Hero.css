@@ -140,10 +140,10 @@
     margin-top: 10px;
     font-size: 0.7rem;
   }
-
+/* 
   .heroRight img {
-    width: 70vw;
-  }
+    width: 75vw;
+  } */
 }
 
 @media only screen and (max-width: 400px) {
@@ -161,8 +161,8 @@
     margin-top: 10px;
     font-size: 0.7rem;
   }
-
+/* 
   .heroRight img {
-    width: 60vw;
-  }
+    width: 75vw;
+  } */
 }
