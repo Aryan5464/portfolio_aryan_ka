@@ -126,6 +126,15 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .heroSection {
+    gap: 30px;
+    height: 95vh;
+  }
+  
+  .heroLeft{
+    gap: 30px;
+  }
+
   .h_1 {
     font-size: 1.8rem;
   }
