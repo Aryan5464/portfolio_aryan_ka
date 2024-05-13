@@ -97,6 +97,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 80px;
   }
 
   .heroLeft {
@@ -130,6 +131,7 @@
     gap: 30px;
     height: 95vh;
     user-select: none;
+    margin-top: 50px;
   }
   
   .heroLeft{

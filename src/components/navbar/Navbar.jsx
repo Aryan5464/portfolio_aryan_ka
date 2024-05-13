@@ -1,17 +1,30 @@
 import './Navbar.css'
+import { SiNintendogamecube } from "react-icons/si";
+import { FaSkullCrossbones } from "react-icons/fa";
 import aryanLogo from '../../images/AryanLogo_dark.png'
+import { useState } from 'react';
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggleNav = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <section className="navContainer">
       <div className="navLeft"><img src={aryanLogo} width={'50px'} alt="Aryan" /></div>
 
       <div className="navMid">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
+        <div className={`navMidLinks ${isOpen ? 'open' : ''}`}>
+          <a onClick={toggleNav} href="#home">Home</a>
+          <a onClick={toggleNav} href="#about">About</a>
+          <a onClick={toggleNav} href="#skills">Skills</a>
+          <a onClick={toggleNav} href="#experience">Experience</a>
+          <a onClick={toggleNav} href="#projects">Projects</a>
+        </div>
+        <SiNintendogamecube className={`navIcon ${!isOpen ? 'show' : ''}`} onClick={toggleNav} />
+        <FaSkullCrossbones className={`navIcon ${isOpen ? 'show' : ''}`} onClick={toggleNav} />
       </div>
 
       <div className="navRight">

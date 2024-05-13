@@ -13,6 +13,7 @@
   background-color: black;
   z-index: 998;
   user-select: none;
+  transition: all 1s ease-in-out;
 }
 
 .navLeft {
@@ -26,18 +27,32 @@
 .navMid {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.navMidLinks {
+  display: flex;
+  align-items: center;
   gap: 20px;
+}
+
+.navIcon {
+  transition: transform 1s ease-in-out;
+  display: none;
+  font-size: 1.7rem;
+  color: var(--white-3);
 }
 
 .navMid a {
   text-decoration: none;
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: var(--black-5);
   letter-spacing: 2px;
   transition: all 0.3s ease-out;
 }
 
-.navMid a:hover, .navMid a:active {
+.navMid a:hover,
+.navMid a:active {
   /* color: var(--white-2); */
   color: goldenrod;
   /* text-shadow: 0px 0px 2px var(--white-2); */
@@ -49,20 +64,78 @@
 }
 
 .GITbtn {
-    background-color: var(--white-3);
-    color: var(--black-2);
-    padding: 10px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: .9rem;
-    font-weight: 500;
-    transition: all 0.2s ease-in-out;
-    border: 2px solid var(--white-2);
+  background-color: var(--white-3);
+  color: var(--black-2);
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid var(--white-2);
+}
+
+.GITbtn:hover {
+  /* color: var(--white-2); */
+  color: goldenrod;
+  background-color: transparent;
+  border: 2px solid goldenrod;
+}
+
+@media only screen and (max-width: 800px) {
+  .GITbtn {
+    padding: 5px;
+    font-size: 0.8rem;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .navContainer {
+    left: 0;
+    width: 100vw;
+    padding: 12px 0;
+  }
+
+  .navRight  {
+    margin: 0;
+  }
+
+}
+
+@media only screen and (max-width: 650px) {
   
-  .GITbtn:hover {
-    /* color: var(--white-2); */
-    color: goldenrod;
-    background-color: transparent;
-    border: 2px solid goldenrod;
+  .navLeft {
+    order: 2;
+  }
+
+  .navMid {
+    order: 1;
+  }
+
+  .navRight {
+    order: 3;
+  }
+
+  .navIcon.show {
+    display: initial;
+  }
+
+  .navMidLinks {
+    position: absolute;
+    flex-direction: column;
+    /* align-items: center; */
+    align-items: flex-start;
+    top: 50px;
+    left: 0px;
+    height: 100vh;
+    background-color: black;
+    z-index: 9999;
+    padding: 30px 50px;
+    transform: translateX(-120vw);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .open {
+    transform: translateX(0vw);
+  }
 }
