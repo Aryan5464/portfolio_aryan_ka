@@ -121,7 +121,8 @@
   }
 
   .navMidLinks {
-    position: absolute;
+    /* Yaha kuch to gadbad ho sakti hai */
+    position: fixed;
     flex-direction: column;
     /* align-items: center; */
     align-items: flex-start;
