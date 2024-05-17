@@ -24,12 +24,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   border: 1px solid var(--black-3);
-  padding: 20px;
+  padding: 30px 10px;
 }
 
 .projectImg {
   width: 20vw;
+  margin-bottom: 20px;
+  border: 1px solid white;
 }
 
 .projectName {
@@ -115,6 +118,11 @@
     text-align: center;
     margin-top: 20px;
     width: 60%;
+  }
+
+  .projectCard {
+    border: none;
+    padding: 20px;
   }
 }
 
