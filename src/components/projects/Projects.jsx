@@ -4,6 +4,9 @@ import RentellarImg from '../../images/RentellarImg.png'
 import LegalYodhaImg from '../../images/LegalYodhaImg.png'
 import AxsImg from '../../images/AxsImg.png'
 import WanderStoriesImg from '../../images/WanderStoriesImg.png'
+import ClientPortfolioImg from '../../images/ClientPortfolioImg.png'
+import CaraImg from '../../images/CaraImg.png'
+
 
 
 const Projects = () => {
@@ -35,6 +38,20 @@ const Projects = () => {
             name: 'Wander Stories ',
             description: 'Travel Blogging Website providing a platform with great User Interface for them to read and share travel blogs with WEB3 technology integrated. ',
             liveLink: 'https://www.rentellar.com/',
+            githubLink: '#'
+        },
+        {
+            imgUrl: ClientPortfolioImg,
+            name: 'Wander Stories ',
+            description: 'Portfolio Website for a Canadian clients.',
+            liveLink: 'https://client-portfolio-freelance.vercel.app/',
+            githubLink: '#'
+        },
+        {
+            imgUrl: CaraImg,
+            name: 'Wander Stories ',
+            description: 'Cara is a 100% responsive e-commerce website making it compatible with all the devices.',
+            liveLink: 'https://ecommerce-website-project-phi.vercel.app/',
             githubLink: '#'
         },
         // Add more project objects as needed
