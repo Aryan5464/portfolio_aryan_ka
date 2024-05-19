@@ -35,14 +35,14 @@ const Projects = () => {
         },
         {
             imgUrl: WanderStoriesImg,
-            name: 'Wander Stories ',
+            name: 'Wander Stories',
             description: 'Travel Blogging Website providing a platform with great User Interface for them to read and share travel blogs with WEB3 technology integrated. ',
             liveLink: 'https://www.rentellar.com/',
             githubLink: '#'
         },
         {
             imgUrl: ClientPortfolioImg,
-            name: 'Wander Stories ',
+            name: 'Client Portfolio',
             description: 'Portfolio Website for a Canadian clients.',
             liveLink: 'https://client-portfolio-freelance.vercel.app/',
             githubLink: '#'
