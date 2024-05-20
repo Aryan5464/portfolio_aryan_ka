@@ -30,14 +30,14 @@ const Projects = () => {
             imgUrl: AxsImg,
             name: 'AXS',
             description: 'Experimented with Three.js to increase user interactivity and overall website design. Made use of technical documentation and online resources to make it hapen.',
-            liveLink: 'https://www.rentellar.com/',
+            liveLink: 'https://axs-3js.vercel.app/',
             githubLink: '#'
         },
         {
             imgUrl: WanderStoriesImg,
             name: 'Wander Stories',
             description: 'Travel Blogging Website providing a platform with great User Interface for them to read and share travel blogs with WEB3 technology integrated. ',
-            liveLink: 'https://www.rentellar.com/',
+            liveLink: 'https://aryan5464.github.io/WanderStories/',
             githubLink: '#'
         },
         {
