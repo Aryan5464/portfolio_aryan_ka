@@ -49,7 +49,7 @@ const Projects = () => {
         },
         {
             imgUrl: CaraImg,
-            name: 'Wander Stories ',
+            name: 'E-commerce Website',
             description: 'Cara is a 100% responsive e-commerce website making it compatible with all the devices.',
             liveLink: 'https://ecommerce-website-project-phi.vercel.app/',
             githubLink: '#'

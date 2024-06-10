@@ -10,7 +10,7 @@
   justify-content: space-between;
   align-items: center;
   z-index: 999;
-  user-select: none;
+
   border-left: none;
 }
 
@@ -41,6 +41,7 @@
   letter-spacing: 5px;
   word-spacing: 3px;
   opacity: 0.8;
+  margin-top: 80px;
 }
 
 /* Left Bar Bottom */
@@ -57,9 +58,15 @@
   transition: all 0.5s ease-out;
 }
 
+.leftBarBottom .socialIcons a {
+  color: var(--white-4);
+}
+
 .socialIcons:hover {
-  color: gold;
   transform: scale(1.05);
+}
+.socialIcons a:hover {
+  color: gold;
 }
 
 @media only screen and (max-width: 600px) {

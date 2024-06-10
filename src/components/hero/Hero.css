@@ -37,7 +37,7 @@
 
 .heroRight img {
   width: 45vw;
-  user-select: none;
+  
 }
 
 @media only screen and (max-width: 1300px) {
@@ -130,7 +130,7 @@
   .heroSection {
     gap: 30px;
     height: 95vh;
-    user-select: none;
+    
     margin-top: 50px;
   }
   

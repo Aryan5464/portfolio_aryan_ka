@@ -17,6 +17,8 @@ const Navbar = () => {
 
       <div className="navMid">
         <div className={`navMidLinks ${isOpen ? 'open' : ''}`}>
+
+          <FaSkullCrossbones className={`navIcon ${isOpen ? 'show' : ''}`} onClick={toggleNav} />
           <a onClick={toggleNav} href="#home">Home</a>
           <a onClick={toggleNav} href="#about">About</a>
           <a onClick={toggleNav} href="#skills">Skills</a>
