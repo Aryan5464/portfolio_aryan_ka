@@ -132,6 +132,10 @@
     transform: translateX(-80vw);
     transition: all 0.3s ease-in-out;
     }
+
+    .navMid a {
+      font-size: 1.1rem;
+    }
     
     .open {
       transform: translateX(0vw);
