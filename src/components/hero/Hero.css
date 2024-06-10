@@ -158,6 +158,13 @@
   }
 }
 
+@media only screen and (max-width: 450px) {
+  .heroRight img {
+    width: 80vw;
+  }
+}
+
+
 @media only screen and (max-width: 400px) {
   .h_1 {
     font-size: 1.6rem;
