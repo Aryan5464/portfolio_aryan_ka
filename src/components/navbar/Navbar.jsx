@@ -1,7 +1,7 @@
 import './Navbar.css'
 import { SiNintendogamecube } from "react-icons/si";
 import { FaSkullCrossbones } from "react-icons/fa";
-import aryanLogo from '../../images/AryanLogo_dark.png'
+import aryanLogo from '/images/AryanLogo_dark.png'
 import { useState } from 'react';
 
 const Navbar = () => {

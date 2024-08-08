@@ -1,5 +1,5 @@
 import './Hero.css'
-import HeroImg from '../../images/HeroImg2.png'
+import HeroImg from '/images/HeroImg2.png'
 
 const Hero = () => {
   return (

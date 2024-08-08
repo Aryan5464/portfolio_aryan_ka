@@ -1,11 +1,11 @@
 import ProjectCard from './ProjectCard'
 import './Projects.css'
-import RentellarImg from '../../images/RentellarImg.png'
-import LegalYodhaImg from '../../images/LegalYodhaImg.png'
-import AxsImg from '../../images/AxsImg.png'
-import WanderStoriesImg from '../../images/WanderStoriesImg.png'
-import ClientPortfolioImg from '../../images/ClientPortfolioImg.png'
-import CaraImg from '../../images/CaraImg.png'
+import RentellarImg from '/images/RentellarImg.png'
+import LegalYodhaImg from '/images/LegalYodhaImg.png'
+import AxsImg from '/images/AxsImg.png'
+import WanderStoriesImg from '/images/WanderStoriesImg.png'
+import ClientPortfolioImg from '/images/ClientPortfolioImg.png'
+import CaraImg from '/images/CaraImg.png'
 
 
 

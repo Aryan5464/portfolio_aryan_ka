@@ -1,5 +1,5 @@
 import './LeftBar.css'
-import A_logo_v1 from '../../images/A_logo_v1.png'
+import A_logo_v1 from '/images/A_logo_v1.png'
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
